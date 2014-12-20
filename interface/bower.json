@@ -1,0 +1,14 @@
+{
+  "name": "interface",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andrexbass/protoreq",
+  "authors": [
+    "Andre Amorim <andre.php6@gmail.com>"
+  ],
+  "description": "interface for protoreq",
+  "main": "index.htlm",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT"
+}
