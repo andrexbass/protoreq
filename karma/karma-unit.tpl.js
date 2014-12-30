@@ -18,7 +18,12 @@ module.exports = function ( karma ) {
       'src/assets/**/*.js'
     ],
     frameworks: [ 'jasmine' ],
-    plugins: [ 'karma-jasmine', 'karma-firefox-launcher', 'karma-coffee-preprocessor' ],
+    plugins: [ 
+      'karma-jasmine', 
+      'karma-chrome-launcher',
+      'karma-firefox-launcher', 
+      'karma-coffee-preprocessor' 
+    ],
     preprocessors: {
       '**/*.coffee': 'coffee',
     },
